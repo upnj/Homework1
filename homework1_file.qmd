@@ -1,0 +1,68 @@
+---
+title: "An interview with Data Scientist"
+author: "Upendra Joshi"
+format: html
+editor: visual
+execute: 
+  echo: false
+---
+
+## Introduction
+
+An informal interview with a Data Scientist
+
+**1) What do you think being a data scientist is about?**
+
+Well, data scientist are total unique/different kind of scientist and can be found in any field. Essentially, data scientist work to deeply understand and analyze the data to provide actaionable insights. In a business environment, they work across multiple teams and lay foundation for robust analytics. To do that they develop strategies to capture the data, clean the data from various sources and process to get meaningful information.
+
+**2) What differences/similarities do you see between data scientists and statisticians?**
+
+**Similarities**
+
+To be a data scientist and statistician both need following skills
+
+-   Expertise in Statistical Analysis: Statistical techniques which makes sense of data.
+
+-   Knowledge of Programming Languages: such as R, SAS, Python, SQL
+
+-   Data visualization skills: Ability to create informative and charts and graphs
+
+-   Strong Math Background: Knowledge of probability, linear algebra and calculus
+
+**Differences**
+
+-   Data scientists may focus on related technologies like automation, machine learning. While statisticians may use technology to achieve their goals, they are more likely to focus on mathematical concepts like significance testing, diagnostic plots and manual data collection.
+
+-   Data scientists focus on using data to solve real-world problems, while statisticians focus on analyzing data and developing statistical models. Data scientists focus on the practical application of statistical techniques and how they can reveal business insights. Statisticians develop new statistical methodologies and explore the theoretical properties of statistical models, which can be beneficial in research and media.
+
+-   Data scientists typically take a more exploratory approach to data analysis, using a variety of techniques to identify patterns and trends in data. They may also use machine learning to develop predictive models that can be useful when making decisions. Statisticians usually take a more scientific, hypothesis-driven approach, using statistical techniques to test specific hypotheses and draw conclusions about the underlying population.
+
+**3) How do you view yourself in relation to these two areas?**
+
+I view myself as data scientist than statistician, as I am more focused on the applications of the statistics to real world problems. I learn machine learning langauge such as Python and well verse in SAS. I like to focus on the data cleaning, developing a model to train the data and getting meaningful information based upon the statistical model. I hope after leaning R I will achieve my goal as a data scientist.
+
+```{r}
+# |echo: false
+y <- density(iris$Petal.Width)
+
+```
+
+[**Example of an Object:**]{.underline}
+
+Let's create an object y using a petal values from iris data set.
+
+Then the object y has class" `` `{r} class(y)` ``"
+
+The object y is type of " `` `{r} typeof(y)` ``" and the internal structure of object y is as follows
+
+```{r}
+str(y)
+```
+
+**The Plot of object y using function plot()**
+
+```{r}
+#| echo: false 
+
+plot(y)
+```
